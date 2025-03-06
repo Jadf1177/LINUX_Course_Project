@@ -1,0 +1,294 @@
+]633;E;echo "Time: $(date)";40e8778e-de20-4e42-a4f6-a6697617756e]633;CTime: Thu Mar  6 22:18:15 IST 2025
+USER DETAILS: root:x:0:0:root:/root:/bin/bash
+REPO: /root/Final-Work/LINUX_Course_Project
+GithubUrl: https://github.com/Jadf1177/LINUX_Course_Project.git 
+VERSIONID: "24.04"
+-------------------------------------
+Installed tree package and listing all files recursively:
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  aardvark-dns buildah catatonit conmon containernetworking-plugins
+  docker-compose fuse-overlayfs golang-github-containers-common
+  golang-github-containers-image libgpgme11t64 libslirp0 libsubid4 netavark
+  passt podman python3-compose python3-docker python3-dockerpty python3-docopt
+  python3-dotenv python3-packaging python3-texttable python3-websocket
+  slirp4netns uidmap
+Use 'sudo apt autoremove' to remove them.
+The following NEW packages will be installed:
+  tree
+0 upgraded, 1 newly installed, 0 to remove and 175 not upgraded.
+Need to get 47.1 kB of archives.
+After this operation, 111 kB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu noble/universe amd64 tree amd64 2.1.1-2ubuntu3 [47.1 kB]
+Fetched 47.1 kB in 0s (144 kB/s)
+Selecting previously unselected package tree.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 56173 files and directories currently installed.)
+Preparing to unpack .../tree_2.1.1-2ubuntu3_amd64.deb ...
+Unpacking tree (2.1.1-2ubuntu3) ...
+Setting up tree (2.1.1-2ubuntu3) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+.
+├── BACKUPS
+├── CODE
+│   └── LINUX_COURSE_WORK-downloads
+│       ├── FIle_1.txt
+│       ├── File_2.txt
+│       ├── img1.jpg
+│       ├── img2.jpg
+│       ├── img3.jpg
+│       ├── plant.py
+│       ├── plants.csv
+│       └── py1.py
+├── DATA
+│   ├── FIle_1.txt
+│   ├── File_2.txt
+│   ├── img1.jpg
+│   ├── img2.jpg
+│   ├── img3.jpg
+│   └── plants.csv
+├── DOWNLOADS
+│   └── LINUX_COURSE_WORK-downloads
+│       ├── FIle_1.txt
+│       ├── File_2.txt
+│       ├── img1.jpg
+│       ├── img2.jpg
+│       ├── img3.jpg
+│       ├── plant.py
+│       ├── plants.csv
+│       └── py1.py
+├── REPOSITORY
+└── Work
+    ├── Q1
+    │   └── q1_output.txt
+    ├── Q2
+    ├── Q3
+    └── Q4
+
+13 directories, 23 files
+-------------------------------------
+List of all .sh files under user folder recursively:
+/root/.vscode-server/extensions/ms-python.debugpy-2024.14.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/pydevd_attach_to_process/linux_and_mac/compile_mac.sh
+/root/.vscode-server/extensions/ms-python.debugpy-2024.14.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/pydevd_attach_to_process/linux_and_mac/compile_linux.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/getopts_long.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/init/require.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/init/io.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/init/vars.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/init/opts.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/init/term-background.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/init/pre.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/bashdb-part2.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/dbg-main.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/source.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/undisplay.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/search.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/run.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/kill.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/shell.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/export.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/history.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/debug.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/backtrace.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/skip.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/signal.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/return.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/list.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/help.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/enable.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/down.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/continue.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/set.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/file.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/break.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/log.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/eval.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/action.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/examine.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/complete.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/delete.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/set_sub/annotate.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/set_sub/debugging.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/set_sub/highlight.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/set_sub/autolist.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/set_sub/history.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/set_sub/debug.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/set_sub/autoeval.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/set_sub/editing.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/set_sub/args.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/set_sub/basename.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/set_sub/style.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/set_sub/trace-commands.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/set_sub/tty.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/set_sub/different.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/set_sub/width.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/set_sub/dollar0.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/set_sub/prompt.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/set_sub/showcommand.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/set_sub/linetrace.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/set_sub/listsize.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/tty.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/info_sub/source.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/info_sub/program.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/info_sub/functions.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/info_sub/warranty.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/info_sub/files.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/info_sub/args.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/info_sub/line.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/info_sub/signals.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/info_sub/variables.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/info_sub/handle.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/info_sub/display.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/info_sub/breakpoints.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/info_sub/watchpoints.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/info_sub/stack.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/quit.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/disable.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/finish.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/next.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/frame.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/edit.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/condition.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/handle.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/commands.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/pwd.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/display.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/watch.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/clear.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/step.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/load.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/show_sub/annotate.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/show_sub/highlight.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/show_sub/autolist.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/show_sub/history.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/show_sub/debug.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/show_sub/autoeval.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/show_sub/warranty.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/show_sub/editing.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/show_sub/args.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/show_sub/copying.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/show_sub/basename.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/show_sub/style.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/show_sub/tty.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/show_sub/different.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/show_sub/width.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/show_sub/directories.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/show_sub/prompt.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/show_sub/version.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/show_sub/commands.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/show_sub/alias.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/show_sub/listsize.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/untrace.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/alias.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/trace.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/show.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/info.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/up.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/data/shell.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/filecache.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/run.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/shell.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/unescape.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/sort.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/stepping.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/hist.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/subcmd.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/list.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/help.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/msg.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/file.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/break.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/action.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/processor.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/complete.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/setshow.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/validate.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/frame.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/commands.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/hook.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/save-restore.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/fns.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/display.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/cmd-hooks.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/journal.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/alias.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/sig.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/columnize.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/dbg-call.sh
+/root/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/info.sh
+/root/.vscode-server/extensions/ms-python.debugpy-2025.4.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/pydevd_attach_to_process/linux_and_mac/compile_mac.sh
+/root/.vscode-server/extensions/ms-python.debugpy-2025.4.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/pydevd_attach_to_process/linux_and_mac/compile_linux.sh
+/root/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/out/vs/base/node/cpuUsage.sh
+/root/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/out/vs/base/node/ps.sh
+/root/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+/root/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/node_modules/jschardet/scripts/show-size-changes.sh
+/root/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/node_modules/jschardet/scripts/run-workflow.sh
+/root/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/extensions/git/dist/ssh-askpass-empty.sh
+/root/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/extensions/git/dist/git-editor.sh
+/root/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/extensions/git/dist/ssh-askpass.sh
+/root/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/extensions/git/dist/git-editor-empty.sh
+/root/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/extensions/git/dist/askpass.sh
+/root/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/extensions/git/dist/askpass-empty.sh
+/root/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/extensions/ms-vscode.js-debug/src/targets/node/terminateProcess.sh
+/root/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/extensions/terminal-suggest/fixtures/shell-parser/primaryExpressions/input.sh
+/root/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/extensions/terminal-suggest/fixtures/shell-parser/multipleStatements/input.sh
+/root/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/extensions/terminal-suggest/fixtures/shell-parser/variables/input.sh
+/root/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/extensions/terminal-suggest/fixtures/shell-parser/basic/input.sh
+/root/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/extensions/terminal-suggest/scripts/update-specs.sh
+/root/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/extensions/terminal-suggest/scripts/clone-fig.sh
+/root/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/bin/helpers/browser.sh
+/root/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/bin/helpers/check-requirements.sh
+/root/.vscode-server/data/User/History/-e651af7/Khno.sh
+/root/.vscode-server/data/User/History/-e651af7/bk7o.sh
+/root/.vscode-server/data/User/History/-e651af7/RELI.sh
+/root/.vscode-server/data/User/History/-e651af7/XORZ.sh
+/root/.vscode-server/data/User/History/-5f8f8bc/Qs8Z.sh
+/root/.vscode-server/data/User/History/-5f8f8bc/ECpE.sh
+/root/.vscode-server/data/User/History/470c71cf/Xg1X.sh
+/root/.vscode-server/data/User/History/470c71cf/WaT7.sh
+/root/.vscode-server/data/User/History/3ef66a05/39Rx.sh
+/root/.vscode-server/data/User/History/3ef66a05/bs2I.sh
+/root/.vscode-server/data/User/History/-61f11a03/JTdo.sh
+/root/.vscode-server/data/User/History/-61f11a03/2zsI.sh
+/root/.vscode-server/data/User/History/-332261a5/dnoy.sh
+/root/.vscode-server/data/User/History/23210861/8Kr4.sh
+/root/.vscode-server/data/User/History/23210861/bdyo.sh
+/root/.vscode-server/data/User/History/23210861/UWfn.sh
+/root/.vscode-server/data/User/History/23210861/BU3r.sh
+/root/.vscode-server/data/User/History/23210861/zk0P.sh
+/root/.vscode-server/data/User/History/23210861/gU0y.sh
+/root/.vscode-server/data/User/History/23210861/mIMa.sh
+/root/.vscode-server/data/User/History/23210861/HnJZ.sh
+/root/.vscode-server/data/User/History/23210861/JD9w.sh
+/root/.vscode-server/data/User/History/23210861/i0yi.sh
+/root/.vscode-server/data/User/History/23210861/Z4WD.sh
+/root/.vscode-server/data/User/History/23210861/x3HJ.sh
+/root/.vscode-server/data/User/History/23210861/yniC.sh
+/root/.vscode-server/data/User/History/23210861/Ry2k.sh
+/root/.vscode-server/data/User/History/23210861/dpnv.sh
+/root/.vscode-server/data/User/History/23210861/hseA.sh
+/root/.vscode-server/data/User/History/-fce6084/v46D.sh
+/root/.vscode-server/data/User/History/-fce6084/zL7z.sh
+/root/.vscode-server/data/User/History/-fce6084/51Kd.sh
+/root/.vscode-server/data/User/History/-fce6084/RUgi.sh
+/root/.vscode-server/data/User/History/-fce6084/BluH.sh
+/root/.vscode-server/data/User/History/-fce6084/8ZXp.sh
+/root/.vscode-server/data/User/History/-fce6084/5BvO.sh
+/root/.vscode-server/data/User/History/-fce6084/TJBN.sh
+/root/.vscode-server/data/User/History/-fce6084/DYrJ.sh
+/root/.vscode-server/data/User/History/551d9066/KOKE.sh
+/root/.vscode-server/data/User/History/-7ec6b77c/DseR.sh
+/root/.vscode-server/data/User/History/-7ec6b77c/gY8l.sh
+/root/.vscode-server/data/User/History/-7ec6b77c/e7LY.sh
+/root/.vscode-server/data/User/History/32b39ac8/EH3f.sh
+/root/BashDockerApp/convert_temp.sh
+/root/BashDockerApp/pychartRunner.sh
+/root/SCRIPTS/updater.sh
+/root/SCRIPTS/upgraded_updater.sh
+/root/SCRIPTS/combine.sh
+/root/SCRIPTS/s.sh
+/root/BashScript2/script_2_Method.sh
+/root/BashScript2/script_3_install.sh
+/root/BashScript2/script_1_iterateFiles.sh
+/root/BashScript2/script_4_CSV.sh
+/root/GitAndGithub/commit.sh
