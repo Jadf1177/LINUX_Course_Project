@@ -1,43 +1,43 @@
-import argparse
 import matplotlib.pyplot as plt
-import os
-from datetime import datetime
+import argparse
 
-# Argument parser
-parser = argparse.ArgumentParser(description="Plant Growth Data Processor")
-parser.add_argument("--plant", type=str, required=True, help="Name of the plant")
-parser.add_argument("--height", nargs='+', type=int, required=True, help="List of plant heights")
-parser.add_argument("--leaf_count", nargs='+', type=int, required=True, help="List of leaf counts")
-parser.add_argument("--dry_weight", nargs='+', type=float, required=True, help="List of dry weight values")
-args = parser.parse_args()
+def plot_data(plant, heights, leaf_counts, dry_weights):
+    time_steps = range(1, len(heights) + 1)
 
-# Create Diagrams_2/Q2 directory
-os.makedirs("Diagrams_2/Q2", exist_ok=True)
+    # Plot height over time
+    plt.figure()
+    plt.plot(time_steps, heights, marker='o', linestyle='-', color='b', label="Height")
+    plt.xlabel("Time Steps")
+    plt.ylabel("Height (cm)")
+    plt.title(f"{plant} Height Over Time")
+    plt.legend()
+    plt.savefig(f"Diagrams_1/{plant}_height.png")
 
-# Generate plots
-plt.figure()
-plt.plot(args.height, marker='o', linestyle='-', color='b', label="Height")
-plt.xlabel("Time")
-plt.ylabel("Height (cm)")
-plt.title(f"Growth of {args.plant}")
-plt.legend()
-plt.savefig(f"Diagrams_2/Q2/height_plot_{datetime.now().strftime('%Y%m%d_%H%M%S')}.png")
+    # Plot leaf count over time
+    plt.figure()
+    plt.plot(time_steps, leaf_counts, marker='s', linestyle='--', color='g', label="Leaf Count")
+    plt.xlabel("Time Steps")
+    plt.ylabel("Leaf Count")
+    plt.title(f"{plant} Leaf Count Over Time")
+    plt.legend()
+    plt.savefig(f"Diagrams_1/{plant}_leaf.png")
 
-plt.figure()
-plt.plot(args.leaf_count, marker='s', linestyle='--', color='g', label="Leaf Count")
-plt.xlabel("Time")
-plt.ylabel("Number of Leaves")
-plt.title(f"Leaf Count for {args.plant}")
-plt.legend()
-plt.savefig(f"Diagrams_2/Q2/leaf_count_plot_{datetime.now().strftime('%Y%m%d_%H%M%S')}.png")
+    # Plot dry weight over time
+    plt.figure()
+    plt.plot(time_steps, dry_weights, marker='^', linestyle='-.', color='r', label="Dry Weight")
+    plt.xlabel("Time Steps")
+    plt.ylabel("Dry Weight (g)")
+    plt.title(f"{plant} Dry Weight Over Time")
+    plt.legend()
+    plt.savefig(f"Diagrams_1/{plant}_dry_weight.png")
 
-plt.figure()
-plt.plot(args.dry_weight, marker='^', linestyle='-.', color='r', label="Dry Weight")
-plt.xlabel("Time")
-plt.ylabel("Dry Weight (g)")
-plt.title(f"Dry Weight of {args.plant}")
-plt.legend()
-plt.savefig(f"Diagrams_2/Q2/dry_weight_plot_{datetime.now().strftime('%Y%m%d_%H%M%S')}.png")
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Plot plant growth data")
+    parser.add_argument("--plant", type=str, required=True, help="Plant name")
+    parser.add_argument("--height", type=float, nargs='+', required=True, help="List of heights over time")
+    parser.add_argument("--leaf_count", type=int, nargs='+', required=True, help="List of leaf counts over time")
+    parser.add_argument("--dry_weight", type=float, nargs='+', required=True, help="List of dry weights over time")
 
-# Show plots (optional)
-# plt.show()
+    args = parser.parse_args()
+    
+    plot_data(args.plant, args.height, args.leaf_count, args.dry_weight)
