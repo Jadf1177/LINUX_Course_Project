@@ -1,4 +1,5 @@
-* 69639e3 (HEAD -> main, origin/main, origin/BR_Q2, BR_Q2) Added plant.py and moved generated files
+* db460ca (HEAD -> main, origin/main) Added plant_plots.py and generated diagrams in Diagrams_2
+* 69639e3 (origin/BR_Q2, BR_Q2) Added plant.py and moved generated files
 * 8b7777d (origin/feature-branch, feature-branch) Fixed the bug in XYZ
 * ec875c0 (origin/BR_Q1, BR_Q1) Added q1_output.txt with required system info
 * f7c1a69 Created BR_Q1 branch and added changes
